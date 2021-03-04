@@ -4,9 +4,16 @@
     <meta charset="utf-8">
     <title>Life Bear - Home</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#includedContent").load("navbar.html");
+        });
+    </script>
 </head>
 
 <body>
+    <div id="includedContent"></div>
     <div w3-include-html="navbar.html"></div>
     <script src="js/include.js"></script>
 </body>
