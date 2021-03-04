@@ -55,8 +55,8 @@ a:hover {
     display: none;
     position: absolute;
     background-color: #333;
-    min-width: 160px;
-    transform: translate(0px,45px);
+    width: 250px;
+    transform: translate(0px,44px);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
