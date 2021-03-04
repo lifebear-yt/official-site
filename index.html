@@ -4,18 +4,27 @@
     <meta charset="utf-8">
     <title>Life Bear - Home</title>
     <link rel="stylesheet" href="css/main.css">
-    <script src="jquery.js"></script>
-    <script>
-        $(function () {
-            $("#includedContent").load("navbar.html");
-        });
-    </script>
 </head>
 
 <body>
-    <div id="includedContent"></div>
-    <div w3-include-html="navbar.html"></div>
-    <script src="js/include.js"></script>
+    <div class="navbar">
+        <a href="links">Links</a>
+        <a href="tutorials">Tutorials</a>
+        <div class="dropdown">
+            <a href="downloads" class="dropbtn">
+                Downloads
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-content">
+                <a href="downloads/mods">Mods</a>
+                <a href="downloads/plugins">Plugins</a>
+                <a href="downloads/maps">Maps</a>
+                <a href="downloads/scripts">Scripts</a>
+            </div>
+        </div>
+    </div>
+    <a href="." class="home"><img src="img/logo.png" width="360" height="80"></a>
+
 </body>
 
 </html>
