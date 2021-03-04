@@ -3,20 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>Life Bear - Home</title>
-    <script src="jquery.js"></script>
-    <script>
-        $(function () {
-            var includes = $('[data-include]')
-            $.each(includes, function () {
-                var file = $(this).data('include') + '.html'
-                $(this).load(file)
-            })
-        })
-    </script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div data-include="navbar"></div>
+    <object type="text/html" data="navbar.html" class="navbar_include"></object>
 </body>
 
 </html>
