@@ -31,8 +31,7 @@ a:hover {
     }
 
 .navbar .home {
-    width: 360px;
-    height: 80px;
+    float: right;
 }
 
 .dropdown {
