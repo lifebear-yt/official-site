@@ -30,6 +30,11 @@ a:hover {
         text-decoration: none;
     }
 
+.navbar .home {
+    width: 360px;
+    height: 80px;
+}
+
 .dropdown {
     float: right;
     overflow: hidden;
