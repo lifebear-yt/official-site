@@ -6,13 +6,17 @@
     <script src="jquery.js"></script>
     <script>
         $(function () {
-            $("#includedContent").load("navbar.html");
-        });
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+                var file = 'views/' + $(this).data('include') + '.html'
+                $(this).load(file)
+            })
+        })
     </script>
 </head>
 
 <body>
-    <div id="includedContent"></div>
+    <div data-include="navbar"></div>
 </body>
 
 </html>
