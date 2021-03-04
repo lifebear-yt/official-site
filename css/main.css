@@ -30,8 +30,14 @@ a:hover {
         text-decoration: none;
     }
 
-.navbar .home {
-    float: right;
+.home {
+    float: left;
+    transform: translate(0px,-44px);
+    background-color: #333; 
+}
+
+.home:hover {
+    background-color: #333;
 }
 
 .dropdown {
