@@ -32,7 +32,7 @@ a:hover {
 
 .home {
     float: left;
-    transform: translate(30px,-44px);
+    transform: translate(20px,-44px);
     background-color: #333; 
 }
 
