@@ -8,6 +8,10 @@ body {
     src: url("css/fonts/main.woff") format('woff');
 }
 
+* {
+    font-family: Main;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -35,7 +39,7 @@ body {
         color: white;
         padding: 14px 16px;
         background-color: inherit;
-        font-family: inherit;
+        font-family: Main;
         margin: 0;
     }
 
